@@ -1,0 +1,29 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #333;
+    color: #fff;
+}
+header h1 , h2{
+    color: rgb(23, 201, 186);
+}
+header p {
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+}
+header p::first-letter{
+    font-size: 30px;
+}
+header p span , .movies ol span{
+    color: rgb(192, 192, 45);
+}
+.movies li a {
+    color: rgb(184, 0, 0);
+    text-decoration: none;
+}
+.movies li a:hover{
+    text-decoration: underline;
+}
+.moods img{
+    width: 400px;
+    height: 400px;
+}
